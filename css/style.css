@@ -1,0 +1,158 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#container {
+  width: 1170px;
+  padding: 0 15px;
+  margin: 60px auto 0;
+}
+
+.bio {
+  border-bottom: solid 1px #ccc;
+  padding: 0 15px 10px;
+  margin-bottom: 30px;
+}
+
+.banner-row {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  flex-wrap: wrap;
+}
+
+.banner-items {
+  padding: 0 15px;
+  margin-bottom: 30px;
+}
+
+.banner-items h1 {
+  font-size: 20px;
+  color: #777;
+  margin-bottom: 10px;
+}
+
+.banner-items iframe {
+  border: none;
+}
+.reload {
+  border: none;
+  color: #fff;
+  background-color: rgb(188, 143, 143);
+  padding: 6px 15px 6px 8px;
+  margin-top: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+.view{
+ 
+  color: #fff;
+  background-color: rgb(188, 143, 143);
+  padding: 4px 15px 6px 8px;
+  margin-top: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.reload:hover {
+  opacity: 0.8;
+}
+
+.reload:focus {
+  outline: 0;
+}
+
+.reload i {
+  display: inline-block;
+  margin-right: 5px;
+  transition: all 0.3s ease-out;
+}
+
+.reload:hover i {
+  transform: rotate(180deg);
+}
+.eye {
+  position: relative;
+  top: -286px;
+  left: 885px;
+  line-height: 2;
+  color: green;
+}
+#tiger {
+  position: relative;
+  top: -113px;
+  left: 885px;
+  color: green;
+}
+#business 
+
+{
+  
+  position: relative;
+  left: 840px;
+  top: -559px;
+  line-height: 2;
+  color: green;
+
+}
+#tution{
+  position: relative;
+    left: 872px;
+    top: -151px;
+    color: green;
+}
+#business-2{
+  position: relative;
+    top: -302px;
+    left: 878px;
+    color: green;
+    line-height: 1.5;
+}
+#plane{
+  position: relative;
+  left: 883px;
+  top: -124px;
+  color: green;
+}
+#boy{
+  position: relative;
+  top: -215px;
+  left: 898px;
+  color: green;
+  line-height: 2;
+}
+#frame-1{
+  height: 687px;
+}
+#frame-2{
+  height: 235px;
+}
+#frame-3{
+  height: 350px;
+}
+#frame-4
+{
+  height: 300px;
+}
+#frame-5{
+  height: 360px;
+}
+#frame-6{
+  height: 390px;
+}
+#frame-7{
+height: 155px;
+}
+#frame-8{
+height: 405px;
+}
+#frame-9{
+height: 232px;
+}
+#frame-01{
+  height: 685px;
+}
