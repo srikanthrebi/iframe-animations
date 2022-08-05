@@ -1,0 +1,47 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+    overflow: hidden;
+}
+#container {
+  position: relative;
+  width: 435px;
+  height: 309px;
+  overflow: hidden;
+  margin:  0 auto;
+}
+#sprite{
+    position: relative;
+    width: 1300px;
+    height: 309px;
+    animation: horse 1s infinite steps(12);
+    transform: translateX(0);
+}
+@keyframes horse{
+    100%{
+        transform: translateX(-5200px);
+    }
+}
+#img-01{
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+#img-02{
+    position: absolute;
+    top: -309px;
+    left: 1300px;
+}
+#img-03{
+    position: absolute;
+    top: -618px;
+    left: 2600px;
+}
+#img-04{
+    position: absolute;
+    top: -927px;
+    left: 3900px;
+}

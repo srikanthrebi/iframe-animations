@@ -1,0 +1,35 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+#container{
+    width: 184px;
+    height: 325px;
+    /* background-image: url("../image/capguy-walk-1472.png");
+    
+    background-repeat: no-repeat;
+    */
+    /* animation-name: play;
+    animation-duration: 0.8s;
+    animation-timing-function: steps(8);
+    animation-iteration-count: infinite; */
+    margin: auto;
+    border: 1px solid black;
+    overflow: hidden;
+
+}
+#sprite{
+    width: 1472px;
+    height: auto;
+    transform: translateX(0);
+    animation-name: play;
+    animation-duration: 0.8s;
+    animation-timing-function: steps(8);
+    animation-iteration-count: infinite;
+}
+@keyframes play{
+    100%{
+      transform: translateX(-1472px);
+    }
+}
