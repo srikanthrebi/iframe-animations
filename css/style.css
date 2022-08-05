@@ -156,3 +156,9 @@ height: 232px;
 #frame-01{
   height: 685px;
 }
+h3{
+  text-align: center;
+    margin: 30px 0px;
+    font-weight: 600;
+    color: #021402;
+}
