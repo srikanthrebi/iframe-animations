@@ -11,16 +11,16 @@
 }
 
 .bio {
-  border-bottom: solid 1px #ccc;
+  color: #662f0b;
   padding: 0 15px 10px;
   margin-bottom: 30px;
+  text-align: center;
 }
 
 .banner-row {
   display: flex;
-  justify-content: flex-start;
-  align-items: flex-start;
-  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: center;
 }
 
 .banner-items {
@@ -57,7 +57,10 @@
   cursor: pointer;
   text-decoration: none;
 }
-
+.color{
+  color: #662f0b;
+  font-size: 16px;
+}
 .reload:hover {
   opacity: 0.8;
 }
@@ -75,87 +78,11 @@
 .reload:hover i {
   transform: rotate(180deg);
 }
-.eye {
-  position: relative;
-  top: -286px;
-  left: 885px;
-  line-height: 2;
-  color: green;
-}
-#tiger {
-  position: relative;
-  top: -113px;
-  left: 885px;
-  color: green;
-}
-#business 
 
-{
-  
-  position: relative;
-  left: 840px;
-  top: -559px;
-  line-height: 2;
-  color: green;
 
-}
-#tution{
-  position: relative;
-    left: 872px;
-    top: -151px;
-    color: green;
-}
-#business-2{
-  position: relative;
-    top: -302px;
-    left: 878px;
-    color: green;
-    line-height: 1.5;
-}
-#plane{
-  position: relative;
-  left: 883px;
-  top: -124px;
-  color: green;
-}
-#boy{
-  position: relative;
-  top: -215px;
-  left: 898px;
-  color: green;
-  line-height: 2;
-}
-#frame-1{
-  height: 687px;
-}
-#frame-2{
-  height: 235px;
-}
-#frame-3{
-  height: 350px;
-}
-#frame-4
-{
-  height: 300px;
-}
-#frame-5{
-  height: 360px;
-}
-#frame-6{
-  height: 390px;
-}
-#frame-7{
-height: 155px;
-}
-#frame-8{
-height: 405px;
-}
-#frame-9{
-height: 232px;
-}
-#frame-01{
-  height: 685px;
-}
+/* .frame{
+  height: 4;
+} */
 h3{
   text-align: center;
     margin: 30px 0px;

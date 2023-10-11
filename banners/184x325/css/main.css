@@ -4,7 +4,8 @@
     box-sizing: border-box;
 }
 #container{
-    width: 184px;
+    /* width: 184px; */
+    border: none;
     height: 325px;
     /* background-image: url("../image/capguy-walk-1472.png");
     
@@ -15,7 +16,7 @@
     animation-timing-function: steps(8);
     animation-iteration-count: infinite; */
     margin: auto;
-    border: 1px solid black;
+    
     overflow: hidden;
 
 }
